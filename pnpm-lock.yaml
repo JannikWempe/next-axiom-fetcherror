@@ -2,11 +2,13 @@ lockfileVersion: 5.4
 
 specifiers:
   next: 13.4.10
+  next-axiom: ^0.18.0
   react: 18.2.0
   react-dom: 18.2.0
 
 dependencies:
   next: 13.4.10_biqbaboplfbrettd7655fr4n2y
+  next-axiom: 0.18.0_next@13.4.10
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
@@ -143,6 +145,16 @@ packages:
     hasBin: true
     dev: false
 
+  /next-axiom/0.18.0_next@13.4.10:
+    resolution: {integrity: sha512-OexBGAQ3l/EPCIxbaGVee+JmJZfW6DMT/NCqaRw6tsZ7dO72rsZCAMhDh6qT41+dCyb+X10Dzx3yHVy+3p1qyw==}
+    engines: {node: '>=15'}
+    peerDependencies:
+      next: ^12.1.4 || ^13
+    dependencies:
+      next: 13.4.10_biqbaboplfbrettd7655fr4n2y
+      whatwg-fetch: 3.6.16
+    dev: false
+
   /next/13.4.10_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-4ep6aKxVTQ7rkUW2fBLhpBr/5oceCuf4KmlUpvG/aXuDTIf9mexNSpabUD6RWPspu6wiJJvozZREhXhueYO36A==}
     engines: {node: '>=16.8.0'}
@@ -259,6 +271,10 @@ packages:
     dependencies:
       glob-to-regexp: 0.4.1
       graceful-fs: 4.2.11
+    dev: false
+
+  /whatwg-fetch/3.6.16:
+    resolution: {integrity: sha512-83avoGbZ0qtjtNrU3UTT3/Xd3uZ7DyfSYLuc1fL5iYs+93P+UkIVF6/6xpRVWeQcvbc7kSnVybSAVbd6QFW5Fg==}
     dev: false
 
   /zod/3.21.4:
